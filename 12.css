@@ -1,0 +1,50 @@
+body{
+    background-image: url(office.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.form-container{
+    width: 500px;
+    border-radius: 20px;
+    padding:20px;
+    margin: 100px auto;
+    /* border:2px solid black; */
+    text-align: center;
+    background-color: whitesmoke;
+    opacity: calc(90%);
+    
+}
+.user-data{
+    
+    font-size: 20px;
+    padding:15px 16px;
+    box-sizing:border-box ;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+}
+.btn{
+    width: 300px;
+    margin-top: 30px;
+    
+    box-sizing:border-box;
+    font-size: 20px;
+    border:none;
+    border-radius:10px;
+    background-color: blueviolet;
+    color:white;
+    height: 30px;
+}
+.valid{
+   text-decoration: none;
+   margin-top:20px;
+}
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+    transition-duration: 0.5s;
+}
+.div a:hover{
+     text-decoration: underline;
+}
